@@ -10,31 +10,40 @@ window.document.onkeyup = (event) => {
   const keyPressed = event.key;
 
   switch (keyPressed) {
-    case ("Q", "q"):
+    case "Q":
+    case "q":
       play("Q");
       break;
-    case ("W", "w"):
+    case "W":
+    case "w":
       play("W");
       break;
-    case ("E", "e"):
+    case "E":
+    case "e":
       play("E");
       break;
-    case ("A", "a"):
+    case "A":
+    case "a":
       play("A");
       break;
-    case ("S", "s"):
+    case "S":
+    case "s":
       play("S");
       break;
-    case ("D", "d"):
+    case "D":
+    case "d":
       play("D");
       break;
-    case ("Z", "z"):
+    case "Z":
+    case "z":
       play("Z");
       break;
-    case ("X", "x"):
+    case "X":
+    case "x":
       play("X");
       break;
-    case ("C", "c"):
+    case "C":
+    case "c":
       play("C");
       break;
     default:
